@@ -1,0 +1,31 @@
+<header>
+<!-- NAV ONE -->
+	<nav class="navbar navbar-default nav-justified nav-one">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-list">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		    </button>
+		    <div class="navbar-brand" id="doglogo">
+			<a href="index.php"><img src="photos/logo.png"><span>Stuff Dogs Like</span></a>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse" id="nav-list">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="about.php">About</a></li>
+				<li><a href="contact.php">Contact</a></li>
+				<?php userShopping(); ?>
+			</ul>
+		</div>
+	</nav>
+<!-- HEADER PAGE -->
+	<div class="header">
+		<h1>What does your dog want?</h1>
+		<h3 class="text-center">Because your pet deserves only the best!</h3>
+	</div>
+</header>
+
+<!-- NAV TWO -->
+	<?php navTwo(); ?>
+

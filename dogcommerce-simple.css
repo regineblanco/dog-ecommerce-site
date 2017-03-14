@@ -1,0 +1,225 @@
+body {
+	font-family: 'Dosis', sans-serif;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+/*NAV ONE*/
+nav {
+	font-family: 'Comfortaa', cursive;
+}
+
+.navbar-brand a {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	color: #7c3a13;
+	font-size: 20px;
+}
+
+.navbar-brand a:hover {
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.navbar-brand img {
+	height: 25px;
+	width: 25px;
+}
+
+.navbar-brand span {
+	padding-left: 10px;
+}
+
+.admin-rights {
+	font-weight: bold;
+}
+
+.nav-one, .nav-two {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+/*HEADER*/
+header {
+	background: url(photos/dog1.jpg) center/cover no-repeat;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	color: white;
+}
+
+div.header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.header h1 {
+	font-family: 'Comfortaa', cursive;
+}
+
+.header h3 {
+	font-family: 'Yellowtail', cursive;
+}
+
+/*.carousel-inner > .item > img,
+.carousel-inner > .item > a > img  {
+  	width: 100%;
+	height: 300px;
+  	position: relative;
+  	color: white;
+  	margin: 0;
+  	padding: 0;
+}
+
+.carousel-indicators li {
+  	margin: 0;
+  	padding: 0;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.carousel-caption h1 {
+	font-family: 'Comfortaa', cursive;
+}
+
+.carousel-caption h3 {
+	font-family: 'Yellowtail', cursive;
+}*/
+
+/*NAV TWO*/
+.nav-two {
+	padding: 0 auto;
+}
+
+/*LEFT*/
+.left {
+	/*width: 50%;*/
+	border: 2px solid #7c3a13;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*margin: 20px 0 20px 20px;*/
+}
+
+.left h3, .right h3 {
+	font-family: 'Comfortaa', cursive;
+}
+
+.stuff {
+	margin-right: 0;
+	padding-left: 40px;
+}
+
+.stuff .item {
+	height: 300px;
+	width: 300px;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+}
+
+.item img {
+	height: 250px;
+	width: 250px;
+}
+
+.item .product {
+	font-weight: bold;
+}
+
+.welcome-text {
+	/*font-family: 'Caveat', cursive;*/
+	font-family: 'Yellowtail', cursive;
+	font-size: 20px;
+}
+ 
+
+/*RIGHT*/
+.top, .bottom {
+	border: 2px solid #7c3a13;
+	/*background: #5A3300;*/
+	margin: 20px;
+	width: 80%;
+}
+/*get new margin format in Macbook*/
+
+.top span, .bottom span {
+	display: block;
+}
+
+.login, .look {
+	margin: 10px auto;
+}
+
+.login span, .look span {
+	 padding: 5px;
+}
+
+.top .forgot {
+	padding-bottom: 5px;
+}
+
+.logout-button a {
+	color: black;
+	text-decoration: none;
+}
+
+/*CLICKS*/
+
+
+/*ABOUT & CONTACT*/
+.about img, .contact img {
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.about p, .contact p {
+	font-size: 16px;
+	margin: 5px;
+}
+
+.contact span {
+	font-weight: bold;
+}
+
+strong {
+	font-family: 'Indie Flower', cursive;
+}
+
+/*FOOTER*/
+footer {
+	background: url(photos/dog1.jpg) left no-repeat;
+	color: white;
+}
+
+footer i {
+	color: white;
+}
+
+.footer {
+	padding: 30px 0 10px 0;
+}
+
+.footer, .branding {
+	font-family: 'Indie Flower', cursive;
+}
+
+.branding {
+	padding-bottom: 30px;
+	font-size: 16px;
+}
+
+.year {
+	font-family: 'Dosis', sans-serif;
+}

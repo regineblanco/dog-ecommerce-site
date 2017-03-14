@@ -1,0 +1,77 @@
+<header>
+ 	<!-- NAV ONE -->
+	<nav class="navbar navbar-default nav-justified nav-one" id="nav-one">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-list">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		    </button>
+		    <div class="navbar-brand" id="doglogo">
+			<a href="index.php"><img src="photos/logo.png" class="sdllogo"><span>Stuff Dogs Like</span></a>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse" id="nav-list">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="about.php#shop" class='about-link'>About</a></li>
+				<li><a href="contact.php#shop" class='contact-link'>Contact</a></li>
+				<!-- where user shopping was previously located -->
+			</ul>
+		</div>
+	</nav>
+<!-- HEADER PAGE -->
+
+	<div class="container-fluid">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	    	<ol class="carousel-indicators">
+	      		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	      		<li data-target="#myCarousel" data-slide-to="1"></li>
+	      		<li data-target="#myCarousel" data-slide-to="2"></li>
+	      		<li data-target="#myCarousel" data-slide-to="3"></li>
+	    	</ol>
+
+	    	<div class="carousel-inner carousel-big" role="listbox">
+	     		<div class="item active">
+	        		<img src="photos/dog1.jpg">
+	        		<div class="carousel-caption">
+	        			<a href="#shop" class="shop-link"><h1>Shop Now</h1></a>   
+	        		</div>
+	      		</div>
+
+	      		<div class="item">
+	       			<img src="photos/dog4.jpg">
+	       			<div class="carousel-caption">
+		          		<a href="#shop" class="shop-link"><h1>Shop Now</h1></a>
+	        		</div>
+	      		</div>
+	    
+	      		<div class="item">
+	        		<img src="photos/dog9.jpeg">
+	        		<div class="carousel-caption">
+		          		<a href="#shop" class="shop-link"><h1>Shop Now</h1></a>
+	        		</div>
+	      		</div>
+
+	      		<div class="item">
+	        		<img src="photos/dog10.jpg">
+	        		<div class="carousel-caption">
+		          		<a href="#shopnav" class="shop-link"><h1>Shop Now</h1></a>	
+	        		</div>
+	      		</div>
+	   		</div>
+		    
+	   		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		      	<!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> -->
+		      	<span class="sr-only">Previous</span>
+		    </a>
+		    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		      	<!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> -->
+		      	<span class="sr-only">Next</span>
+		    </a> 
+		</div>
+	</div>  
+</header>
+
+<!-- NAV TWO -->
+	<?php navTwo(); ?>
+

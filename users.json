@@ -1,0 +1,32 @@
+[
+    {
+        "username": "admin",
+        "password": "admin",
+        "role": "admin"
+    },
+    {
+        "username": "simplyme",
+        "password": "123",
+        "role": "admin"
+    },
+    {
+        "username": "hotnessoverload",
+        "password": "456",
+        "role": "regular"
+    },
+    {
+        "username": "rainbowboy",
+        "password": "rb",
+        "role": "regular"
+    },
+    {
+        "username": "winterbaby",
+        "password": "wb",
+        "role": "regular"
+    },
+    {
+        "username": "helloworld",
+        "password": "hw",
+        "role": "regular"
+    }
+]
