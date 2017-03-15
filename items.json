@@ -5,6 +5,12 @@
         "Price": "P50,000",
         "Category": "Essentials"
     },
+    "1": {
+        "Photo": "photos\/bed.png",
+        "Item": "Luxury Bed",
+        "Price": "P1,000,000",
+        "Category": "Cribs"
+    },
     "2": {
         "Photo": "photos\/bowl.jpg",
         "Item": "I'm Hungry Dog Bowl",
@@ -18,54 +24,48 @@
         "Category": "Munchies"
     },
     "4": {
-        "Photo": "photos\/haru.jpg",
-        "Item": "Hire Haru",
-        "Price": "P500",
-        "Category": "Toys"
-    },
-    "5": {
         "Photo": "photos\/barkin.png",
         "Item": "Barkin' Blends",
         "Price": "P150-P5,000",
         "Category": "Interactions"
     },
-    "17": {
+    "5": {
+        "Photo": "photos\/haru.jpg",
+        "Item": "Hire Haru",
+        "Price": "P500",
+        "Category": "Dog Yayas"
+    },
+    "6": {
         "Photo": "photos\/gerard.jpg",
         "Item": "Hire Gerard",
-        "Price": "P0",
+        "Price": "P300",
         "Category": "Dog Yayas"
     },
-    "18": {
-        "Photo": "photos\/billy.jpg",
-        "Item": "Hire Billy",
-        "Price": "P1,000,000",
-        "Category": "Dog Yayas"
-    },
-    "19": {
+    "7": {
         "Photo": "photos\/vince.jpg",
         "Item": "Hire Vince",
         "Price": "P100",
         "Category": "Dog Yayas"
     },
-    "25": {
+    "8": {
         "Photo": "photos\/cielo.jpg",
         "Item": "Hire Cielo",
         "Price": "P0",
         "Category": "Dog Yayas"
     },
-    "26": {
+    "9": {
         "Photo": "photos\/jonathan.jpg",
         "Item": "Hire Jonathan",
         "Price": "P0",
         "Category": "Munchies"
     },
-    "27": {
+    "10": {
         "Photo": "photos\/rj.jpg",
         "Item": "Hire RJ",
         "Price": "P200",
         "Category": "Dog Yayas"
     },
-    "28": {
+    "11": {
         "Photo": "photos\/like a ninja.jpg",
         "Item": "Hire PJ",
         "Price": "P1,000,000",
