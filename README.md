@@ -11,4 +11,4 @@ As visitors, they can only view the items and offered services, but once logged 
 <li>Procedural PHP</li>
 <li>CRUD functionality</li>
 <li>JSON to temporarily store and retrieve data</li>
-<li>Javascript to link the clicked items to "add to cart" section on the same page, quantify the number of items you buy, and total the price</li>
+<li>Javascript to link the clicked items to "add to cart" section on the same page, quantify the number of items bought, and total the price</li>
